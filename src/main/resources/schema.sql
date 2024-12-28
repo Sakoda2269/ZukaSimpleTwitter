@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS tweets;
+
+CREATE TABLE IF NOT EXISTS tweets(tid VARCHAR(36), author VARCHAR(30), contents VARCHAR(255));
